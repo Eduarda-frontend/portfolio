@@ -1,0 +1,41 @@
+.projeto{
+    position: relative;
+}
+
+.projeto-img{
+    width: 100%; 
+    height: 200px; 
+    object-fit:contain
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.65);
+    color: @branco;
+    font-family: @fonte-secundaria;
+    cursor: pointer;
+}
+
+.overlay:hover {
+    background-color: rgba(0, 0, 0,0);
+    opacity: 0;
+}
+
+.overlay:hover img{
+    transform: scale(1.1);
+}
+
+.acesso{
+    background-color: @rubi;
+    
+}
+
+.acesso a{
+    text-decoration: none;
+    color: @branco;
+    
+}

@@ -1,0 +1,65 @@
+
+.navbar {
+    background-color: @rubi;
+    color: @branco;
+
+    &__lista{
+        list-style: none;
+        padding-left: 16px;
+
+        &__item__link{
+            
+            color: @branco;
+            text-decoration: none;
+
+            &--active{
+                border-bottom: 5px solid @branco;
+            }
+            
+            &:hover {
+                text-decoration: underline;
+                color: @branco;
+            }
+        }
+        
+
+        
+    }
+
+}
+
+
+
+@media screen and (max-width: 640px) {
+
+    h2 {
+        padding-top: 56px;
+    }
+
+    .menu {
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+    }
+
+    .sobre {
+        padding-top: 24px;
+    }
+
+    .sobre>div {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .sobre img {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    h3 {
+        padding: 16px 0;
+    }
+}
