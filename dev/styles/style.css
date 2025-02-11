@@ -51,10 +51,6 @@ ul {
     padding: 16px 0;
   }
 }
-#sessao_inicial {
-  background-color: transparent;
-  border: none;
-}
 .botao__voltar {
   width: 50px;
   height: 50px;
@@ -90,7 +86,6 @@ ul {
 }
 .hero__informacoes__btn {
   border: 1px solid #9A031E;
-  width: 20%;
 }
 .hero__informacoes__btn:hover {
   background-color: #9A031E;
@@ -98,16 +93,15 @@ ul {
   text-decoration: none;
   font-weight: bold;
 }
+.hero__informacoes__img {
+  height: 100%;
+}
 h2 {
   color: #9A031E;
   border-bottom: 1px solid #9A031E;
   font-size: 4em;
 }
-.sobre {
-  height: 100vh;
-}
 .sobre_mim {
-  width: 70%;
   font-size: 1.2em;
 }
 .sobre > div {
@@ -136,10 +130,6 @@ h2 {
   }
   h3 {
     padding: 16px 0;
-  }
-  .sobre p,
-  .repositorios p {
-    padding: 30px 0 16px;
   }
   form {
     max-width: 340px;

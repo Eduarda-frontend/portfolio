@@ -24,13 +24,14 @@
 .hero {
     font-size: 1.75em;
 
-
     &__informacoes {
+        overflow-y: hidden;
 
         &__principal {
             animation-duration: 3s;
             animation-name: slide-in;
             animation-iteration-count: 1;
+
         }
 
         &--destaque {
@@ -41,8 +42,6 @@
 
         &__btn {
             border: 1px solid @rubi;
-            width: 20%;
-
 
             &:hover {
                 background-color: @rubi;
