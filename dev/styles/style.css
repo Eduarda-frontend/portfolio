@@ -74,10 +74,16 @@ ul {
 .hero {
   font-size: 1.75em;
 }
+.hero__informacoes {
+  overflow-y: hidden;
+}
 .hero__informacoes__principal {
   animation-duration: 3s;
   animation-name: slide-in;
   animation-iteration-count: 1;
+}
+.hero__informacoes__img {
+  width: 30%;
 }
 .hero__informacoes--destaque {
   color: #9A031E;
@@ -92,9 +98,6 @@ ul {
   color: #fff;
   text-decoration: none;
   font-weight: bold;
-}
-.hero__informacoes__img {
-  height: 100%;
 }
 h2 {
   color: #9A031E;
