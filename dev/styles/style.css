@@ -85,6 +85,11 @@ ul {
 .hero__informacoes__img {
   width: 30%;
 }
+@media (max-width: 768px) {
+  .hero__informacoes__img {
+    display: none;
+  }
+}
 .hero__informacoes--destaque {
   color: #9A031E;
   font-weight: bold;
@@ -140,6 +145,7 @@ h2 {
 }
 .projeto {
   position: relative;
+  margin-top: 8px;
 }
 .projeto-img {
   width: 100%;
